@@ -14984,7 +14984,7 @@ class _CurrentTimeIndicator extends CustomPainter {
         Paint()
           ..color = todayHighlightColor!
           ..strokeWidth = 2
-          ..isAntiAlias = false
+          ..isAntiAlias = true
           ..style = PaintingStyle.fill;
     if (isTimelineView) {
       final double viewSize = size.width / visibleDates.length;
