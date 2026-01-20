@@ -14983,7 +14983,7 @@ class _CurrentTimeIndicator extends CustomPainter {
     final Paint painter =
         Paint()
           ..color = todayHighlightColor!
-          ..strokeWidth = 1
+          ..strokeWidth = 2
           ..isAntiAlias = false
           ..style = PaintingStyle.fill;
     if (isTimelineView) {
