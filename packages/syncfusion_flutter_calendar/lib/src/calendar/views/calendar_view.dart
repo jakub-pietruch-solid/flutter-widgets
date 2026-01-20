@@ -9918,6 +9918,7 @@ class _CalendarViewState extends State<_CalendarView>
                               height,
                               widget.calendar.minDate,
                               widget.calendar.maxDate,
+                              widget.calendar.verticalLineColor,
                             ),
                           ),
                           RepaintBoundary(
